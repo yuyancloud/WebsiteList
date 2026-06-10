@@ -1,80 +1,72 @@
-# 🕊️ 雨燕云最新域名列表
+# 🕊️ 雨燕云 | 官方最新域名
 
-欢迎来到 **雨燕云 (YUYAN CLOUD)** 官方发布页域名/列表配置仓库。本仓库用于实时维护、分发雨燕云最新的官方网站地址，并作为备用 API 节点，供客户端、发布页和用户查询。
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)](#)
-[![GitHub license](https://img.shields.io/github/license/yuyancloud/WebsiteList)](LICENSE)
+欢迎来到 **雨燕云 (YUYAN CLOUD)** 官方最新域名列表配置仓库。本仓库用于实时维护、分发雨燕云最新的官方网站地址，方便用户在任何网络环境下快速找回官网入口。
 
 ---
 
-## 🔗 永久防失联通道
+## 1. 防失联通道
 
-如果所有常规域名无法访问，请通过以下永久渠道获取最新入口：
+如果常规域名被墙无法访问，请通过以下永久通道获取最新可用入口：
 
-1. **GitHub 仓库 (当前页面)**：建议收藏此仓库。
-2. **Telegram 官方频道**：[雨燕云官方频道](https://t.me/yuyanyun_chanel) (获取最新通知与域名更新)
-3. **Telegram 客服机器人**：[雨燕云网页客服](https://t.me/yuyan_webbot)
-4. **官方推特 (X)**：[yuyan_cloud](https://x.com/yuyan_cloud)
-
----
-
-## 📡 动态域名 API 接口
-
-本仓库托管了域名发布页的核心配置文件 `new-website.json`。发布页会通过并发测速算法自动拉取此列表，并重定向至最快线路。
-
-### 1. JSON 配置结构 (`new-website.json`)
-
-本仓库中需包含一个 `new-website.json` 文件，内容格式如下：
-
-```json
-{
-  "updated_at": "2026-06-10T19:00:00Z",
-  "domains": [
-    "new1.yuyan.online",
-    "new2.yuyan.online",
-    "new5.yuyan.online"
-  ]
-}
-```
-
-### 2. 备用 API 获取地址 (免代理 CDN 加速)
-
-若您的发布页无法连通主 R2 节点，可以通过以下备用 CDN 节点获取此仓库的配置：
-
-- **GitHub Raw 节点** (需代理访问)：
-  `https://raw.githubusercontent.com/yuyancloud/WebsiteList/main/new-website.json`
-- **jsDelivr CDN 加速** (国内直连优化)：
-  `https://fastly.jsdelivr.net/gh/yuyancloud/WebsiteList@main/new-website.json`
+*   **免代理发布页**：[最新官网发布页](https://yuyancloud.github.io/WebsiteList) (自动测速、智能分发最优节点)
+*   **GitHub 仓库 (当前页面)**：建议点击右上角 **Star** 或 **Watch** 收藏本仓库。
+*   **Telegram 官方频道**：[雨燕云官方频道](https://t.me/yuyanyun_chanel) (获取最新通知与域名更新)
+*   **Telegram 客服机器人**：[雨燕云网页客服](https://t.me/yuyan_webbot)
+*   **官方推特 (X)**：[yuyan_cloud](https://x.com/yuyan_cloud)
 
 ---
 
-## 🌐 雨燕云官方域名速览
+## 2. 最新域名 (免代理直连)
 
-| 域名类型              | 访问地址                                               | 说明                   |
-| :-------------------- | :----------------------------------------------------- | :--------------------- |
-| **永久域名** (需代理) | [yuyan.co](https://yuyan.co)                           | 官方永久保留域名       |
-| **永久域名** (需代理) | [yuyan.online](https://yuyan.online)                   | 官方永久保留域名       |
-| **发布页** (免代理)   | [最新发布页](https://yuyancloud.github.io/WebsiteList) | 自动测速并分发最新官网 |
+以下为当前最新验证可用的官网入口，您可以直接点击下方链接访问官网：
 
----
+*   🚀 **推荐入口一**：[https://new1.yuyan.co](https://new1.yuyan.co)
+*   🚀 **推荐入口二**：[https://new2.yuyan.co](https://new2.yuyan.co)
+*   🚀 **推荐入口三**：[https://new5.yuyan.co](https://new5.yuyan.co)
 
-## 🛠️ 常见连通性故障排除
-
-### 1. 域名被污染 (DNS 污染)
-
-如遇到“网页无法打开”但开启代理即可正常运行，说明您的 DNS 解析已被运营商污染。
-**解决方法：**
-建议在浏览器（如 Chrome / Edge）设置中开启 **安全 DNS (DoH)**，并填入以下服务商之一：
-
-*   **阿里加密 DNS**: `https://dns.alidns.com/dns-query`
-*   **腾讯加密 DNS**: `https://doh.pub/dns-query`
-
-### 2. 推荐浏览器
-
-为保证顺畅访问，请避免使用国产浏览器（如 QQ、UC、360、微信内置浏览器等），推荐使用 **Chrome、Edge、Safari、Firefox** 等国际主流浏览器。
+*(注：上述链接均支持国内网络免代理直接访问。若点击后打不开，请尝试使用上面的“免代理发布页”获取最新测速分发线路)*
 
 ---
 
-## 📄 许可声明
+## 3. 雨燕云官方域名速览
 
-本项目遵循 MIT 许可证开源。
+为了兼顾访问的“长期可靠性”与“国内直连便利性”，雨燕云官方域名采用**双轨制管理规则**：
+
+### 🅰️ 永久域名 (需要开启代理)
+
+永久域名是雨燕云长期保留并维护的底层入口，因被运营商拦截，**必须开启代理工具 (VPN)** 才能正常访问：
+
+*   `yuyan.co`
+*   `yuyan.online`
+
+### 🅱️ 临时域名规则 (免代理直连)
+
+临时域名主要用于国内网络直接访问。当旧域名失效时，系统会自动发布并替换新的临时域名。临时域名的命名遵循以下递进式迭代规则：
+
+*   **命名结构**：`new{数字}.yuyan.online` 或 `new{数字}.yuyan.co`
+*   **命名示例**：
+    *   `new1.yuyan.online` / `new1.yuyan.co`
+    *   `new2.yuyan.online` / `new2.yuyan.co`
+    *   `new3.yuyan.online` / `new3.yuyan.co`
+    *   ... (以此类推递增)
+*   *提示：临时域名可能会定期更新，收藏上述的“防失联通道”可以随时获取到最新可用的数字临时域名。*
+
+---
+
+## 4. 常见连通性故障排除
+
+### 🔍 域名被污染 (DNS 污染)
+
+如果您遇到了“网页无法打开”但开启代理即可正常运行的情况，通常是您的本地宽带 DNS 解析被运营商劫持。
+
+*   **推荐解决方案**：
+    在浏览器（如 Chrome / Edge）设置中开启 **安全 DNS (DoH)**，并填入以下国内主流加密 DNS 服务：
+    *   **阿里加密 DNS**: `https://dns.alidns.com/dns-query` (点击可复制)
+    *   **腾讯加密 DNS**: `https://doh.pub/dns-query` (点击可复制)
+
+### 🧭 推荐使用浏览器
+
+为保证顺畅访问，请：
+
+*   **推荐使用**：Chrome, Edge, Safari, Firefox 等原生国际版浏览器。
+*   **尽量避免**：QQ、UC、360、夸克、微信/QQ 内置浏览器等国内产品，其安全审查拦截系统可能会阻碍您正常打开网页。
