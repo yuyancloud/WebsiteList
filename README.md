@@ -1,6 +1,7 @@
 # 🕊️ 雨燕云 | 官方最新域名
 
 欢迎来到 **雨燕云 (YUYAN CLOUD)** 官方最新域名列表配置仓库。本仓库用于实时维护、分发雨燕云最新的官方网站地址，方便用户在任何网络环境下快速找回官网入口。
+
 [![Status](https://img.shields.io/badge/status-active-success.svg)](#)
 [![GitHub license](https://img.shields.io/github/license/yuyancloud/WebsiteList)](LICENSE)
 ---
