@@ -10,7 +10,7 @@
 
 如果常规域名被墙无法访问，请通过以下永久通道获取最新可用入口：
 
-*   **免代理发布页**：[最新官网发布页](https://yuyancloud.github.io/WebsiteList) (自动测速、智能分发最优节点)
+*   **免代理发布页**：[最新官网发布页]([https://1.xn--9kqq37frnz.com](https://1.xn--9kqq37frnz.com/)) (自动测速、智能分发最优节点)
 *   **GitHub 仓库 (当前页面)**：建议点击右上角 **Star** 或 **Watch** 收藏本仓库。
 *   **Telegram 官方频道**：[雨燕云官方频道](https://t.me/yuyanyun_chanel) (获取最新通知与域名更新)
 *   **Telegram 客服机器人**：[雨燕云网页客服](https://t.me/yuyan_webbot)
