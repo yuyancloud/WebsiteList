@@ -64,8 +64,8 @@
 
 *   **推荐解决方案**：
     在浏览器（如 Chrome / Edge）设置中开启 **安全 DNS (DoH)**，并填入以下国内主流加密 DNS 服务：
-    *   **阿里加密 DNS**: `https://dns.alidns.com/dns-query` (点击可复制)
-    *   **腾讯加密 DNS**: `https://doh.pub/dns-query` (点击可复制)
+    *   **阿里加密 DNS**: `https://dns.alidns.com/dns-query` 
+    *   **腾讯加密 DNS**: `https://doh.pub/dns-query` 
 
 ### 🧭 推荐使用浏览器
 
